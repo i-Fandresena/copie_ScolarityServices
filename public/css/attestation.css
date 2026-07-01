@@ -1,0 +1,169 @@
+html, body{
+    border: 0;
+    margin: 0;
+    width: 210mm;
+    height: 297mm;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 15px;
+    font-size: medium;
+}
+
+.bg img{
+    width: 190px;
+    height: 1070px;
+    display: absolute;
+    margin: 0;
+    padding: 0;
+}
+
+.logo_ens{
+    margin-top: 60px;
+    margin-left:60px;
+}
+
+.univ_fianar{
+    text-align: center;
+    margin-top: -115px;
+    margin-left: 9px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.univ_fianar span{
+    font-size: 11px;
+}
+
+.logo_uf{
+    margin-top: -131px;
+    margin-left: 658px;
+}
+
+.numero span{
+    position: absolute;
+    font-weight: bold;
+    margin-left:70px;
+    margin-top: 34px;
+    font-size: 13px;
+}
+
+.big_title span{
+    position: absolute;
+    font-family: Copperplate Gothic Bold, serif;
+    font-size: 57px;
+    margin-left: 212px;
+    margin-top: 94px;
+}
+
+.le_Dr span{
+    position: absolute;
+    margin-top: 244px;
+    margin-left: 116px;
+}
+
+.mr_mme_mlle span{
+    position: absolute;
+    margin-top: 301px;
+    margin-left: 70px;
+}
+
+.nom span{
+    position: absolute;
+    margin-top: 301px;
+    margin-left: 218px;
+    width: 540px;
+    font-weight: bold;
+}
+
+.birth span{
+    position: absolute;
+    margin-top: 353px;
+    margin-left: 70px;
+}
+
+.date_naissance span{
+    position: absolute;
+    margin-top: 353px;
+    margin-left: 218px;
+    width: 540px;
+    font-weight: bold;
+}
+
+.cdt span{
+    position: absolute;
+    margin-top: 408px;
+    margin-left: 116px;
+}
+
+.after_cdt span{
+    position: absolute;
+    margin-top: 437px;
+    margin-left: 116px;
+}
+
+.master_one span{
+    position: absolute;
+    margin-left: 333px;
+    margin-top: 470px;
+    font-size: 21px;
+    font-weight: bolder;
+}
+
+.domaine span{
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 70px;
+}
+
+.parcours span{
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 218px;
+    width: 540px;
+}
+
+.annee_univers span{
+    position: absolute;
+    margin-top: 531px;
+    margin-left: 70px;
+}
+
+.num_inscription span{
+    position: absolute;
+    margin-top: 531px;
+    margin-left: 218px;
+    width: 540px;
+}
+
+.fait_fianar span {
+    position: absolute;
+    margin-top: 590px;
+    margin-left: 450px;
+}
+
+.nom_dr span{
+    position: absolute;
+    margin-left: 474px;
+    margin-top: 720px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.dernier_text{
+    border-style: double;
+    margin-top: 800px;
+    margin-right: 436px;
+    margin-left: 70px;
+    padding: 2px;
+    font-size:xx-small;
+}
+
+.avis{
+    text-align: center;
+    font-weight: bold;
+}
+
+.texte{
+    text-align: justify;
+}

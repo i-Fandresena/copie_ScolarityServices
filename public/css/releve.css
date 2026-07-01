@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    border: 0;
+    margin: 0;
+    width: 210mm;
+    height: 297mm;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    font-size: 10pt;
+}
+
+.content{
+    width: 100%;
+    height: 100%;
+}
+
+.header{
+    width: 100%;
+    height: 20%;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+}
+
+.header h4{
+    text-decoration: underline;
+}
+
+.info{
+    width: 100%;
+    position: relative;
+    top: 190px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.info .unlined{
+    text-decoration: underline;
+    text-align: left;
+}
+
+.text{
+    width: 100%;
+    display: inline-block;
+}
+
+.text-left{
+    width: 160px;
+    display: inline-block;
+}
+
+.text-right{
+    width: calc(100% - 160px);
+    text-align: right;
+    display: inline-block;
+}
+
+.left{
+    float: left;
+    width: 50%;
+}
+
+.right{
+    float: right;
+    width: 50%;
+    margin-top: 20px;
+}
+
+.table-view{
+    margin-top: 300px;
+    padding-left: 40px;
+    padding-right: 40px;
+    position: relative;
+}
+
+.table-view table{
+    margin-bottom: 10px;
+}
+
+.table-view table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 0;
+}
+
+td{
+    font-size: 10pt;
+}
+
+.matiere{
+    width: 500px;
+    padding-left: 2px;
+}
+
+.center{
+    text-align: center;
+}
+
+.end{
+    position: absolute;
+    left: 70%;
+}
+
+.second{
+    margin-top: 60px;
+}
